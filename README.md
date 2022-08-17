@@ -1,1 +1,1 @@
-# Landing Page - Proect 12
+# Landing Page - Project 12
