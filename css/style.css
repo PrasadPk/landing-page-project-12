@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+.nav-section {
+    background-color: #636C79;
+}
+
+.navbar {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 10vh;
+    margin-top: 20px;
+    margin: 0 100px;
+}
+  
+.logo-container {
+    flex: 0.6;
+    margin-top: 24px;
+}
+  
+.logo-container img {
+    height: 35px;
+}
+  
+.nav-options-container {
+    display: flex;
+    flex: 0.6;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+  
+.list {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-item {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.list-item-active {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+}
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.button-container .register-now-btn {
+    background-color: #ffffff;
+    color: #2c9ce6;
+    border-width: 2px;
+    border-color: #3BB0FF;
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
