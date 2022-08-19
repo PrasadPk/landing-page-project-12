@@ -38,7 +38,6 @@
     display: flex;
     flex: 1;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -46,12 +45,14 @@
     color: #FFFFFF;
     font-weight: 300;
     font-size: 16px;
+    margin-right: 40px;
 }
 
 .list-item-active {
     color: #FFFFFF;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
+    margin-right: 40px;
 }
   
 .button-container {
@@ -60,13 +61,351 @@
     align-items: center;
 }
   
-.button-container .register-now-btn {
-    background-color: #ffffff;
-    color: #2c9ce6;
+.button-container .lets-talk-btn {
+    background-color: transparent;
+    color: #FFFFFF;
     border-width: 2px;
-    border-color: #3BB0FF;
-    border-radius: 8px;
-    padding: 12px 30px;
+    border-color: #e2e2e2;
+    padding: 10px 45px;
     font-size: 16px;
+    font-weight: 500;
+}
+
+.section-01-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 25px 0 80px;
+    background-color: #636C79;
+}
+
+.section-01-container .left-section {
+    display: flex;
+    flex-grow: 0.5;
+    justify-content: center;
+}
+
+.section-01-container .left-section .section-image {
+    width: 350px;
+    height: 400px;
+    background: url('../assets/pexels-fauxels-3183197.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.section-01-container .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 0.5;
+}
+
+.section-01-container .right-section .header {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.section-01-container .right-section .sub-header {
+    font-size: 14px;
+    font-weight: 300;
+    color: #cdcdcd;
+    margin: 25px 0;
+    line-height: 25px;
+}
+
+.section-01-container .right-section .email-container {
+    background-color: #fff;
+    padding: 5px 5px 5px 10px;
+}
+
+.section-01-container .right-section input {
+    background-color: #fff;
+    border: none;
+    width: 230px;
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+#btn-green {
+    background-color: #8BB7A2;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    border: none;
+}
+
+.section-02-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#section-header {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-02-container .stats {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 30px;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+}
+
+.stats .data {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.stats .label {
+    font-size: 14px;
     font-weight: 600;
+    margin-top: 10px;
+    color: #52555a;
+}
+
+.section-image {
+    margin-top: 80px;
+    background-size: cover;
+    width: 1200px;
+    height: 550px; 
+    background-image: url('../assets/pexels-fauxels-3184325.jpg');
+}
+
+.section-03-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-03-container #section-header {
+    margin-top: 40px;
+}
+
+.info {
+    display: flex;
+    flex: 1;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+}
+
+.info .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 0.5;
+}
+
+.info .img-01 {
+    flex-grow: 0.5;
+    background: url('../assets/pexels-fauxels-3184405.jpg');
+    width: 150px;
+    height: 450px;
+    background-size: cover;
+    background-position: right;
+}
+
+.info .img-02 {
+    flex-grow: 0.5;
+    background: url('../assets/pexels-fauxels-3184603.jpg');
+    width: 150px;
+    height: 550px;
+    background-size: cover;
+    background-position: top;
+}
+
+.info .img-03 {
+    flex-grow: 0.5;
+    background: url('../assets/pexels-linkedin-sales-navigator-2182969.jpg');
+    width: 150px;
+    height: 450px;
+    background-size: cover;
+    background-position: left;
+}
+
+.info .content .header {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.info .content .sub-header {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8f9297;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.info .content button {
+    margin-top: 25px;
+}
+
+#center-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-grow: 0.5;
+}
+
+.right-aligned {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 0.5;
+    margin-left: 100px;
+}
+
+.section-04-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.section-04-container .header-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 60%;
+}
+
+.section-04-container .header-container .p1 {
+    display: flex;
+    align-items: center;
+    flex-grow: 0.5;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section-04-container .header-container .p2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 0.5;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8f9297;
+    line-height: 25px;
+}
+
+.section-04-container .team-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-04-container .team-container .card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#team-member-01 {
+    background:  url('../assets/pexels-mikhail-nilov-8937870.jpg');
+    background-position: top;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+#team-member-02 {
+    background:  url('../assets/pexels-precious-judah-9154594.jpg');
+    background-position: top;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+#team-member-03 {
+    background:  url('../assets/pexels-christina-morillo-1181424.jpg');
+    background-position: top;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+#team-member-name {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#team-member-desc {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-04-container button {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #10181D;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 150px 100px 150px;
+}
+
+footer .top-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+footer .top-section .logo {
+    flex-grow: 0.5;
+}
+
+footer .top-section .logo img {
+    height: 40px;
+}
+
+footer .top-section .social-icons {
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .top-section .social-icons img {
+    padding: 8px;
+}
+
+footer hr {
+    margin-top: 35px;
+    background-color: #52555a;
+    height: 1px;
+    border: none;
+}
+
+footer .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+footer .bottom-section h3 {
+    color: #FFFFFF;
+}
+
+footer .bottom-section ul {
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+footer .bottom-section li {
+    color: #a6a6a6;
+    list-style: none;
+    line-height: 50px;
+    font-size: 14px;
 }
