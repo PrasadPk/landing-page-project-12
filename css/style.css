@@ -341,9 +341,10 @@
 
 #team-member-desc {
     margin-top: 25px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8f9297;
+    line-height: 25px;
 }
 
 .section-04-container button {
