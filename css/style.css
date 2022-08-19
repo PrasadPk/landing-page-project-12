@@ -348,6 +348,8 @@
 
 .section-04-container button {
     margin-top: 50px;
+    padding: 16px 45px !important;
+    font-size: 14px;
 }
 
 footer {
@@ -355,6 +357,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 60px 150px 100px 150px;
+    margin-top: 120px;
 }
 
 footer .top-section {
